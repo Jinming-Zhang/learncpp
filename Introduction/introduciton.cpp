@@ -4,6 +4,9 @@
 #include <tuple>
 #include <type_traits>
 
+void StandardTesting();
+void Initialization();
+void iostreamTest();
 namespace a::b::c
 {
     inline constexpr std::string_view str{"hello"};
@@ -17,12 +20,26 @@ std::tuple<std::size_t, std::common_type_t<T...>> sum(T... args)
 
 int main()
 {
+    StandardTesting();
+    Initialization();
+    iostreamTest();
+    return 0;
+}
+
+inline void StandardTesting()
+{
+    std::cout << "Testing compiler capability level..." << std::endl;
     auto [iNumbers, iSum]{sum(1, 2, 3)};
     std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
 
     std::array arr{1, 2, 3};
 
     std::cout << std::size(arr) << '\n';
+}
+
+inline void Initialization()
+{
+    std::cout << "Topic: Initialization..." << std::endl;
 
     int uninitialized;
     std::cout << "Value of uninitialized: " << uninitialized << std::endl;
@@ -34,5 +51,13 @@ int main()
         std::cout << directInitialization[i] << std::endl;
     }
     int directzBraceInitilaization{4};
-    return 0;
+}
+
+inline void iostreamTest()
+{
+    std::cout << "Topic: iostreamTest..." << std::endl;
+    std::cout << "Enter a number:\n";
+    int x{};
+    std::cin >> x;
+    std::cout << "You entered " << x << std::endl;
 }

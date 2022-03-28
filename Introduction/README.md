@@ -1,9 +1,9 @@
-# good commenting
+# Good Commenting
 - at the library, program, or function level, use comments to describe what.
 - inside the library, program, or function, use comments to describe how.
 - at the statement level, use comments to describe why.
 # variable declaration and initialization
-## initializations
+## Initialization
 - default initialization
 	- only declare a variable without assign a value.
 	- in most cases, this will leaves a varialbe with indeterminate value (whatever it's in the memory)
@@ -36,7 +36,7 @@
 		```cpp
 		int a = {5};
 		```	```
-	- Value brace initialization
+	- Value brace initialization (Most cases will initialize the variable to 0/empty)
 
 		```cpp
 		int a {};
@@ -48,3 +48,4 @@
 		// Since 4.5 is a float, if it assigned to variable a, the factional part will be lost during the conversion.
 		int a {4.5};
 		```	```
+# Introduction to iostream
