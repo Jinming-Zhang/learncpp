@@ -7,6 +7,8 @@
 void StandardTesting();
 void Initialization();
 void iostreamTest();
+void compileMultipleFiles();
+int add(int, int);
 namespace a::b::c
 {
     inline constexpr std::string_view str{"hello"};
@@ -23,6 +25,7 @@ int main()
     StandardTesting();
     Initialization();
     iostreamTest();
+    compileMultipleFiles();
     return 0;
 }
 
@@ -60,4 +63,9 @@ inline void iostreamTest()
     int x{};
     std::cin >> x;
     std::cout << "You entered " << x << std::endl;
+}
+
+inline void compileMultipleFiles()
+{
+    std::cout << add(3, 5) << std::endl;
 }
