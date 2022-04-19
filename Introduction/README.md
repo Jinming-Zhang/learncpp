@@ -63,7 +63,7 @@ std::cout << "hello "
 literals are values that have been directly inserted into the source code (hard coded values).
 ```cpp
 std::cout << "hello world!"; // "hello world!" is a literal.
-int x{ 5 }; // 5 is a literal.
+int x{ 5 }; // 5 is a **literal**.
 ```
 the value of a literal is fixed and can not be changed.
 # Expressions
@@ -77,3 +77,74 @@ the value of a literal is fixed and can not be changed.
 1. Within a given file, a function, variable, type, or template can only have one definition.
 2. Within a given program, a variable or normal function can only have one definition. This distinction is made because programs can have more than one file.
 3. Types, templates, inline functions, and inline variables are allowed to have identical definitions in different files.
+# Namespaces and Scope resolution operator (::)
+To use identifiers defined in a namespace
+1. __namespace__::identifier (ie: std::cout)
+2. using namespace std;
+# Preprocessor and Directives
+Code files will go through a phase known as **translation**, which turns code file into properly encoded texts, striping out comments, process preprocessors and gets the code ready to be compiled.<br/>
+## directives
+Once the preprocessor has finished, all defined identifiers from the file are discarded.<br/>
+Directives defined in one code file **do not have impact** on other code files in the same project.
+* includes
+   - #include \<iostream>
+* Macro defines
+   - #define identifier (substitute **identifier** with white space)
+   - #define identifier substitution_text (substitute **identifier** with substitution_text)
+* Conditional compilation
+  - #ifdef
+  - #ifndef
+  - #if 0
+  - #endif
+# Header Files
+- Header files allow us to put declarations in one location and then import then wherever we need them.
+- Header files should generally not contain functions and variable definitions.
+- Header files are often paired with code files, with the header file providing forward declaration for the corresponding code file. It's a good practice to name the header file same as it's corresponding code file.
+## Using " or <>
+### <>
+Compiler will search for header only in the directory specified by **include directories**, and WILL NOT search for header files in project's directory.<br/>
+**include directories** are configured as part of project/compiler setting, usually default to the directory containing the header files that come with compilerj/os.
+### "
+Compiler will first search in current directory, then the **include directories** if not found.
+```
+Use double quote for header files can be found in the current directory.
+
+Use angled brackets for header files that come with compiler/os/third-party libraries.
+```
+## \<iostream> Vs <iostream.h>
+Those are two DIFFERENT header files.<br/>
+iostream.h came from old cpp headers when they haven't move stdlib functions into **std** namespace.<br/>
+To maintain backward capability, functions that moved into **std** namespace were givin a new header which without the .h suffix.
+- header files with .h have functions that are not in **std** namespace
+- header files without .h have functions that are in **std** namespace
+  
+Libraries that inherited from C where givin a *c* prefix. (e.g. stdlib.h -> cstdlib)
+```
+Use the version WITHOUT the .h suffix when including header files from standard libaray
+```
+```
+Use .h when include header files written by us
+```
+## Include header files from other directory
+1. Use relative path in the include directive<br/>
+	```
+	#include "headers/someheader.h"
+	```
+2. Use **include directories** to tell the compiler where to find header files
+   ```
+   g++ -I/folder/to/headerfiles
+   ```
+
+## Header File Best Practices
+* Order of the #include directives to catch missing includes at compile time
+  1. The paired header file
+  2. Other headers from the project
+  3. 3rd party library headers
+  4. Standard library headers
+* Always include header guards
+* Do not define variables and functions in header files
+* Give the header file the same name as the source file that's associated with.
+* Make header files as independent as possible.
+* Include every dependency for every header file. (Every header files should be able to compile on it's own)
+* Only #include what we need
+* Do not #include .cpp files

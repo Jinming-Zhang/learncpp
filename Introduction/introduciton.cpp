@@ -3,12 +3,12 @@
 #include <string_view>
 #include <tuple>
 #include <type_traits>
+#include "add.h"
 
 void StandardTesting();
 void Initialization();
 void iostreamTest();
 void compileMultipleFiles();
-int add(int, int);
 namespace a::b::c
 {
     inline constexpr std::string_view str{"hello"};
@@ -67,5 +67,6 @@ inline void iostreamTest()
 
 inline void compileMultipleFiles()
 {
+    std::cout << "Compiling Multiple files..." << std::endl;
     std::cout << add(3, 5) << std::endl;
 }
