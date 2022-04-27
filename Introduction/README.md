@@ -135,6 +135,14 @@ Use .h when include header files written by us
    g++ -I/folder/to/headerfiles
    ```
 
+## Header Guard
+To prevent from including one header file into other files multiple times.<br/>
+```cpp
+#ifndef SOME_MACRO
+#define SOME_MACRO
+// contents
+#endif
+```
 ## Header File Best Practices
 * Order of the #include directives to catch missing includes at compile time
   1. The paired header file
