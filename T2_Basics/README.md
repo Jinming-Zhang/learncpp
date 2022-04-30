@@ -32,4 +32,14 @@
 - when doing alrithmatic operation with unsigned int and signed int, signed int will be **casted** to unsigned int before the operation.
 - pitfalls
   - it's **extremely** easy to make unsigned int overflow when using it doing alrithmatic operations, both with unsigned int and mixing with signed int
-## fixed width int, fast int
+## fixed width int, fast/least int
+Because C/C++ standard only provides minimun bytes required for **int/unsigned int** type, fixed width int type in std namespace was introduced to improve the capability of the program. The format is **std::int#_t** where # is the bits the int will take.
+```cpp
+std::int16_t a{0};
+std::uint16_t a_1{0};
+std::int32_t b{0};
+std::uint32_t b_1{0};
+```
+However, some exotic and embedded architecture may not support fixed-width int, also may slow down the computing speed on certain architectures.  
+<br/>
+Fast/Least int
