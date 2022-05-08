@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "e47569eaf047c656",
+    "type": "split",
+    "children": [
+      {
+        "id": "98a5a614e7507bc9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Identifiers and initialization methods.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "2f33b37f5a7617f0"
+      },
+      {
+        "id": "72314686c36ec8fc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Identifiers and initialization methods.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "2f33b37f5a7617f0"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2740bd7092bf0d8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f45ccf92ab30353",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d03ac48260030e0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8b0f42ae81013061",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd8979e1ee721e52",
+    "type": "split",
+    "children": [
+      {
+        "id": "80a11b376b59ab6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98ef3e43ae960d7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Identifiers and initialization methods.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "98a5a614e7507bc9",
+  "lastOpenFiles": [
+    "Identifiers and initialization methods.md",
+    "Cheatsheet.md"
+  ]
+}
