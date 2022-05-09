@@ -22,7 +22,8 @@ There are 4 basic ways to initialize variables in c++.
 >```
 >for simple data type is similar to copy initialization, but for complicated types, direct initialization tends to be more efficient.
 
-> Brace Initialization / Uniform initialization
+> Brace Initialization / Uniform initialization<br>
+> In addition to direct initialization, brace initialization can also be used to initialize list of objects.
 >```cpp
 >	 // direct brace initialization
 >	 int c {5}; 

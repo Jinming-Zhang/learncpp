@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Emerald"
+  "cssTheme": "Things",
+  "translucency": false,
+  "baseFontSize": 19
 }
