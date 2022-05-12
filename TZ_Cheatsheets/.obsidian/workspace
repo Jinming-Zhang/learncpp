@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compilers.md",
+            "file": "Comparing floating point numbers.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compilers.md",
+            "file": "Comparing floating point numbers.md",
             "mode": "preview",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compilers.md",
+                "file": "Comparing floating point numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +103,11 @@
   },
   "active": "98a5a614e7507bc9",
   "lastOpenFiles": [
-    "Compilers.md",
+    "Comparing floating point numbers.md",
     "Cheatsheet.md",
-    "Identifiers and initialization methods.md"
+    "Operators.md",
+    "Compilers.md",
+    "Identifiers and initialization methods.md",
+    "Pitfalls.md"
   ]
 }
