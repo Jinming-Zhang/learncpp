@@ -1,5 +1,3 @@
-* object is a region of memory that has a value and other associated properties, object can be named or anonymous.
-* named object is called **variable**, the name of the object is called **identifier**.
 # Initialization
 Provide an initial value for the variable when it's defined.
 There are 4 basic ways to initialize variables in c++.

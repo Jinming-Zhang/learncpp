@@ -1,7 +1,8 @@
 # Cheatsheet
 ## Basics
 [[Compilers]]
-[[Identifiers and initialization methods]]
+[[Glossary]]
+[[Initialization methods]]
 [[Operators]]
 [[Comparing floating point numbers]]
 [[Pitfalls]]

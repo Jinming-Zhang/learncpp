@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 10 03:10:06 2022
+# Make data base, printed on Sat May 14 18:48:27 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -23,7 +25,7 @@ USERPROFILE = C:\Users\jinmi
 # environment
 LOCALAPPDATA = C:\Users\jinmi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-19b8a6bb-6ee5-44e5-baac-b57503bd94e8-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0daa8bc0-199b-4aa2-8765-fd28ddf0b6dc-sock
 # environment
 VSCODE_CWD = D:\Microsoft VS Code
 # environment
@@ -39,7 +41,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18928_SLBRQWIMSCMYNSBJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20952_CHKNOKXWORQFDEDE
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -53,7 +57,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\jinmi\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = C:\Users\jinmi\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 LANG = C
 # default
@@ -95,7 +99,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 18928
+VSCODE_PID = 20952
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -155,7 +159,8 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # automatic
-+F = $(notdir $+)
++F = $(notdir 
+ $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -195,7 +200,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\jinmi\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -205,8 +210,7 @@ SUFFIXES :=
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-SESSIONNAME = C 
-onsole
+SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -214,7 +218,7 @@ PROCESSOR_REVISION = 5e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=9/124=7%
+# Load=102/1024=10%, Rehash=0, Collisions=10/126=8%
 
 # Pattern-specific Variable Values
 
@@ -287,6 +291,6 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Tue May 10 03:10:06 2022
+# Finished Make data base on Sat May 14 18:48:27 2022
 
  

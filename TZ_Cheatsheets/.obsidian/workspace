@@ -105,9 +105,10 @@
   "lastOpenFiles": [
     "Comparing floating point numbers.md",
     "Cheatsheet.md",
+    "Pitfalls.md",
+    "Glossary.md",
+    "Initialization methods.md",
     "Operators.md",
-    "Compilers.md",
-    "Identifiers and initialization methods.md",
-    "Pitfalls.md"
+    "Compilers.md"
   ]
 }
