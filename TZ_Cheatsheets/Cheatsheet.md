@@ -1,8 +1,9 @@
 # Cheatsheet
 ## Basics
 [[Compilers]]
+[[Makefile]]
 [[Glossary]]
 [[Initialization methods]]
-[[Operators]]
+[[Operators and bit manipulation]]
 [[Comparing floating point numbers]]
 [[Pitfalls]]

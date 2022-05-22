@@ -3,38 +3,9 @@
 g++ -o program -I/path/to/directory *.cpp
 ```
 
-## Makefile
-### makefile target
-makefile consists of a set of targets, each target has the folowing syntax:
-```
-target1: prerequisites # optional list of targets
-	command # must be leading tab
-	command
-	...
-target2: prerequisites
-	command
-	command
-	...
-```
+Each c++ source file needs to be compiled into an object file, then object files then are linked into an executable, a shared libarary, or a static libaray(archive of object files).
 
-Target examples:
-```
-begin:
-	echo "hello makefile"
-```
+Only source files(\*.cpp) are passed to the compiler. Header files are not passed to the compiler, they are included from source files using *#include* directive.
 
-```
-clean:
-	rm *.exe *.o
-```
-
-we can call make on different targets defined in makefile
-```
-make target1
-make clean
-```
-
-when no target is provided, make will run the first target in makefile.
-```
-make
-```
+Preprocessor will take the source files and turn them into translation units. We can obtain the translation unit(preprocessed source code) with -E and -o option for g++ compiler.
+>g++ -E main.cpp -o main.o

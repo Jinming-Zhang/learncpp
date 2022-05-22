@@ -8,12 +8,10 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat May 14 18:48:27 2022
+# Make data base, printed on Sat May 21 17:46:42 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -25,7 +23,7 @@ USERPROFILE = C:\Users\jinmi
 # environment
 LOCALAPPDATA = C:\Users\jinmi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0daa8bc0-199b-4aa2-8765-fd28ddf0b6dc-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-baf4d624-bfa6-405b-9eae-42adf0d61208-sock
 # environment
 VSCODE_CWD = D:\Microsoft VS Code
 # environment
@@ -41,9 +39,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20952_CHKNOKXWORQFDEDE
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25796_JIJGWSHMVBFMPJUK
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -57,7 +53,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\jinmi\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = C:\Users\jinmi\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
 # default
@@ -99,7 +95,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 20952
+VSCODE_PID = 25796
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -133,7 +129,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\AdoptOpenJDK\jre-16.0.1.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;G:\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Python\;D:\Python\Scripts\;D:\Microsoft VS Code\bin;D:\MinGW\bin;D:\NodeJS\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Java\bin;D:\Java\maven\bin;D:\OpenSSL-Win64\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Graphviz\bin;C:\ProgramData\chocolatey\bin;C:\Users\jinmi\Desktop\python_request_tes\comic downloader\dist;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Vim\vim82;D:\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\jinmi\AppData\Local\Microsoft\WindowsApps;C:\Users\jinmi\AppData\Roaming\npm;C:\Users\jinmi\.dotnet\tools;D:\Java\IDE\IntelliJ IDEA Community Edition 2020.3.2\bin;;D:\MobileDev\flutter\bin;D:\Git\Git LFS;D:\NPM Global Packages;C:\Users\jinmi\AppData\Local\Yarn\bin
+PATH = C:\Program Files\AdoptOpenJDK\jre-16.0.1.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;G:\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Python\;D:\Python\Scripts\;D:\Microsoft VS Code\bin;D:\MinGW\bin;D:\NodeJS\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Java\bin;D:\Java\maven\bin;D:\OpenSSL-Win64\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Graphviz\bin;C:\ProgramData\chocolatey\bin;C:\Users\jinmi\Desktop\python_request_tes\comic downloader\dist;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Vim\vim82;C:\Program Files (x86)\Yarn\bin\;D:\Git\cmd;C:\Users\jinmi\AppData\Local\Microsoft\WindowsApps;C:\Users\jinmi\AppData\Roaming\npm;C:\Users\jinmi\.dotnet\tools;D:\Java\IDE\IntelliJ IDEA Community Edition 2020.3.2\bin;;D:\MobileDev\flutter\bin;D:\Git\Git LFS;D:\NPM Global Packages;C:\Users\jinmi\AppData\Local\Yarn\bin
 # environment
 COMPUTERNAME = DESKTOP-477CG13
 # default
@@ -159,8 +155,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # automatic
-+F = $(notdir 
- $+)
++F = $(notdir $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -171,8 +166,6 @@ GNUMAKEFLAGS :=
 GIT_LFS_PATH = D:\Git\Git LFS
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -200,7 +193,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\jinmi\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.2-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -218,7 +211,7 @@ PROCESSOR_REVISION = 5e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=10/126=8%
+# Load=99/1024=10%, Rehash=0, Collisions=9/123=7%
 
 # Pattern-specific Variable Values
 
@@ -278,7 +271,8 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# Load=7/1024=1%, Rehash=0, Co 
+llisions=0/16=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
@@ -291,6 +285,6 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Sat May 14 18:48:27 2022
+# Finished Make data base on Sat May 21 17:46:42 2022
 
  
