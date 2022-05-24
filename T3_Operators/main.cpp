@@ -61,4 +61,26 @@ void bitwiseOperators()
 void bitmasks()
 {
 	cout << "Bit Masks\n";
+	constexpr std::uint8_t mask0{1 << 0}; // 0000 0001
+	constexpr std::uint8_t mask1{1 << 1}; // 0000 0010
+	constexpr std::uint8_t mask2{1 << 2}; // 0000 0100
+	constexpr std::uint8_t mask3{1 << 3}; // 0000 1000
+	constexpr std::uint8_t mask4{1 << 4}; // 0001 0000
+	constexpr std::uint8_t mask5{1 << 5}; // 0010 0000
+	constexpr std::uint8_t mask6{1 << 6}; // 0100 0000
+	constexpr std::uint8_t mask7{1 << 7}; // 1000 0000
+
+	std::uint8_t x{0b0100'1010};
+	cout << "x: " << bitset<8>{x} << endl;
+	cout << "set bit at index 0, 4 using bitwise OR\n";
+	cout << bitset<8>{x} << "->\n" << bitset<8>{(x | (mask0 | mask4))} << endl;
+
+	cout << "reset bit at index 1, 2 using bitwise AND with flipped mask\n";
+	cout << bitset<8>{x} << "->\n" << bitset<8>{(x & ~(mask1 | mask2))} << endl;
+
+	cout << "flip bit at index 1, 2 using bitwise XOR\n";
+	cout << bitset<8>{x} << "->\n" << bitset<8>{(x ^ (mask1 | mask2))} << endl;
+
+	cout << "test bits at index 1, 2 using bitwise AND\n";
+	cout << bitset<8>{x} << "->\n" << bitset<8>{(x & (mask1 | mask2))}.any() << endl;
 }

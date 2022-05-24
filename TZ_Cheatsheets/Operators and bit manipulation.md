@@ -86,3 +86,45 @@ which prints x>y, and discards both 1 and 0.
 New bits that shifted in will have value 0, bits that shifted out are lost forever.
 >0011 << 3  result in 1000
 >1100 >> 3  result in 0001
+
+# Bit Masks
+
+Declare bitmask variables:
+```cpp
+constexpr std::uint8_t mask0{1<<0}; //0000 0001
+constexpr std::uint8_t mask1{1<<1}; //0000 0010
+constexpr std::uint8_t mask2{1<<2}; //0000 0100
+constexpr std::uint8_t mask3{1<<3}; //0000 1000
+constexpr std::uint8_t mask4{1<<4}; //0001 0000
+constexpr std::uint8_t mask5{1<<5}; //0010 0000
+constexpr std::uint8_t mask6{1<<6}; //0100 0000
+constexpr std::uint8_t mask7{1<<7}; //1000 0000
+```
+
+Assume we have a bitflags x:
+```cpp
+std::uint8_t x{0b0100'1010};
+```
+To set bits, use bitwise OR:
+```cpp
+// set bit at index 0, 4
+std::cout<< x | (mask0 | mask4) <<std::endl;
+```
+
+To reset bits, use bitwise AND with flipped mask:
+```cpp
+// reset bits at index 0, 1
+std::cout<< x & ~(mask0 | mask1) <<std::endl;
+```
+
+To flip bits, use bitwise XOR:
+```cpp
+// flip bits at index 0, 1
+std::cout<< x ^ (mask0 | mask1) <<std::endl;
+```
+
+To test bits, use bitwise AND:
+```cpp
+// test if bits at index 0, 1 are both set
+std::cout<< x & (mask0 | mask1).any()<<std::endl;
+```
