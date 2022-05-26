@@ -43,6 +43,51 @@ which prints x>y, and discards both 1 and 0.
 >constexp maxStudent {full?10:20};
 >```
 
+# scope resolution operator ::
+The scope resolution operator tells the compiler that the identifier specified at the right hand operand should be looked for in the scope of the left hand operand.
+
+If there is no namespace provided at the left hand side of the operator, then it will look into global namespace.
+```cpp
+::doSomething(); // look into golbal namespace
+foo::doSomething(); //look into foo namespace
+```
+
+global scope resolution is useful when we want to call identifiers in global scope from within a namespace.
+```cpp
+void print(){
+std::cout<<"real print\n";
+}
+namespace foo{
+	void print(){};
+	void f(){
+		print(); //nothing show
+		::print(); // calls the global version
+	}
+}
+```
+
+Nested namespace:
+```cpp
+namespace foo{
+	namespace goo{
+		void something();
+	}
+}
+// or since c++17
+namespace foo::goo{
+	void something();
+}
+```
+
+Namespace aliases provides convenient way for accessing namespaces:
+```cpp
+namespace active = foo::goo;
+// equivelant to foo::goo::something();
+active::something();
+```
+
+Packaging functions inside a nameespace also gives advantage of helping auto-complite and suggestion feature in editors.
+
 # Bit Manipulations
 <table>
 <tr>

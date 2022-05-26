@@ -8,42 +8,36 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 23 15:38:29 2022
+# Make data base, printed on Wed May 25 20:22:46 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
 # environment
-OCULUSBASE = G:\Oculus\
-# environment
 USERPROFILE = C:\Users\jinmi
 # environment
 LOCALAPPDATA = C:\Users\jinmi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5cc0d015-a738-4351-8f4f-c2f0f86a7b0d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bcceb655-f34f-4e85-8c45-b3d34cb0d6e2-sock
 # environment
 VSCODE_CWD = D:\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
-SYSTEMROOT = C:\WINDOWS
+SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9456_RZGCCPLTDEEGMJIS
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_448_NWNEEYRICTNQRBOD
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -67,15 +61,15 @@ TMP = C:\Users\jinmi\AppData\Local\Temp
 # default
 .INCLUDE_DIRS = .
 # environment
+CONFIGSETROOT = C:\Windows\ConfigSetRoot
+# environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\jinmi\OneDrive
-# environment
-INTELLIJ IDEA COMMUNITY EDITION = D:\Java\IDE\IntelliJ IDEA Community Edition 2020.3.2\bin;
 # makefile
-CURDIR := d:/Projects/CPPProjects/learncpp
+CURDIR := f:/Projects/Cpp/learncpp
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -99,7 +93,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9456
+VSCODE_PID = 448
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -123,19 +117,17 @@ MAKECMDGOALS := all
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
+COMSPEC = C:\Windows\system32\cmd.exe
 # environment
-FR_CUSTOMDATA_PATH = G:\Steam\steamapps\common\FaceRig\Mod\VP\PC_CustomData\
-# environment
-WINDIR = C:\WINDOWS
+WINDIR = C:\Windows
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\AdoptOpenJDK\jre-16.0.1.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;G:\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Python\;D:\Python\Scripts\;D:\Microsoft VS Code\bin;D:\MinGW\bin;D:\NodeJS\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Java\bin;D:\Java\maven\bin;D:\OpenSSL-Win64\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Graphviz\bin;C:\ProgramData\chocolatey\bin;C:\Users\jinmi\Desktop\python_request_tes\comic downloader\dist;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Vim\vim82;C:\Program Files (x86)\Yarn\bin\;D:\Git\cmd;C:\Users\jinmi\AppData\Local\Microsoft\WindowsApps;C:\Users\jinmi\AppData\Roaming\npm;C:\Users\jinmi\.dotnet\tools;D:\Java\IDE\IntelliJ IDEA Community Edition 2020.3.2\bin;;D:\MobileDev\flutter\bin;D:\Git\Git LFS;D:\NPM Global Packages;C:\Users\jinmi\AppData\Local\Yarn\bin
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\ProgramData\chocolatey\bin;D:\MSYS64\mingw64\bin;C:\Program Files\dotnet\;D:\Tools;D:\NodeJS\;D:\Postgre\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jinmi\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;C:\Users\jinmi\.dotnet\tools;C:\Users\jinmi\AppData\Roaming\npm
 # environment
-COMPUTERNAME = DESKTOP-477CG13
+COMPUTERNAME = LAPTOP-4D81B8CK
 # default
 MAKEFILES := 
 # automatic
@@ -143,13 +135,13 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-CHOCOLATEYLASTPATHUPDATE = 132956900070379390
+CHOCOLATEYLASTPATHUPDATE = 132956068964496893
 # environment
-LOGONSERVER = \\DESKTOP-477CG13
+LOGONSERVER = \\LAPTOP-4D81B8CK
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
-USERNAME = Wolffurry
+USERNAME = jinmi
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
@@ -163,15 +155,11 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = DESKTOP-477CG13
+USERDOMAIN = LAPTOP-4D81B8CK
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-GIT_LFS_PATH = D:\Git\Git LFS
-# environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -179,9 +167,9 @@ MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-477CG13
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-4D81B8CK
 # environment
-NUMBER_OF_PROCESSORS = 8
+NUMBER_OF_PROCESSORS = 4
 # environment
 PUBLIC = C:\Users\Public
 # environment
@@ -197,7 +185,8 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\jinmi\AppData\Local\Temp
+TEMP = C:\Users\jinmi\AppData\ 
+Local\Temp
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.2-main-sock
 # default
@@ -213,11 +202,11 @@ SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-PROCESSOR_REVISION = 5e03
+PROCESSOR_REVISION = 4e03
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=10/126=8%
+# Load=96/1024=9%, Rehash=0, Collisions=9/120=8%
 
 # Pattern-specific Variable Values
 
@@ -225,9 +214,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/Projects/CPPProjects/learncpp, mtime 1652069592): 11 files, no impossibilities.
+# . (key f:/Projects/Cpp/learncpp, mtime 1653524244): 12 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -284,12 +273,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 165 B / avg = 9 B
-# current buf: size = 8174 B / used = 165 B / count = 18 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 189 B / avg = 9 B
+# current buf: size = 8174 B / used = 189 B / count = 19 / avg = 9 B
 
-# strcache performance: lookups = 21 / hit rate = 14%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Mon May 23 15:38:29 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Wed May 25 20:22:46 2022
 
  

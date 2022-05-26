@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "72314686c36ec8fc",
+        "id": "182580b721eb3553",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -14,10 +14,10 @@
             "source": false
           }
         },
-        "group": "1c6dd99d5b479e7a"
+        "group": "37108de445d34b88"
       },
       {
-        "id": "1d1641f9db1444ac",
+        "id": "92f54701ff769561",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -27,7 +27,7 @@
             "source": false
           }
         },
-        "group": "1c6dd99d5b479e7a"
+        "group": "37108de445d34b88"
       }
     ],
     "direction": "vertical"
@@ -101,9 +101,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "72314686c36ec8fc",
+  "active": "182580b721eb3553",
   "lastOpenFiles": [
     "Operators and bit manipulation.md",
+    "namespaces.md",
     "Cheatsheet.md",
     "Compilers.md",
     "Makefile.md",
