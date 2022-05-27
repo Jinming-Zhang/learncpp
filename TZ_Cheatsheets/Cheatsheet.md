@@ -5,6 +5,6 @@
 [[Glossary]]
 [[Initialization methods]]
 [[Operators and bit manipulation]]
-[[namespaces]]
+[[Namespaces and scope]]
 [[Comparing floating point numbers]]
 [[Pitfalls]]

@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "182580b721eb3553",
+        "id": "f6bba6a3b4e4ffae",
         "type": "leaf",
+        "dimension": 49.523809523809526,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operators and bit manipulation.md",
+            "file": "Glossary.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "37108de445d34b88"
+        }
       },
       {
         "id": "92f54701ff769561",
         "type": "leaf",
+        "dimension": 50.47619047619048,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operators and bit manipulation.md",
+            "file": "Namespaces and scope.md",
             "mode": "preview",
             "source": false
           }
-        },
-        "group": "37108de445d34b88"
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operators and bit manipulation.md",
+                "file": "Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,16 +101,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "182580b721eb3553",
+  "active": "f6bba6a3b4e4ffae",
   "lastOpenFiles": [
+    "Glossary.md",
+    "Namespaces and scope.md",
     "Operators and bit manipulation.md",
-    "namespaces.md",
     "Cheatsheet.md",
     "Compilers.md",
     "Makefile.md",
     "Comparing floating point numbers.md",
     "Pitfalls.md",
-    "Glossary.md",
     "Initialization methods.md"
   ]
 }

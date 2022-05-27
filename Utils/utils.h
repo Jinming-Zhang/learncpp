@@ -7,3 +7,8 @@ void egCall(action f)
 	f();
 	std::cout << std::endl;
 }
+
+void printTitle(std::string title)
+{
+	std::cout << title << std::endl;
+}
