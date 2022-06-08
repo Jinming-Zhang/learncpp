@@ -4,30 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bba6a3b4e4ffae",
-        "type": "leaf",
-        "dimension": 49.523809523809526,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Glossary.md",
-            "mode": "source",
-            "source": false
+        "id": "c475fbde6b5a5c82",
+        "type": "split",
+        "children": [
+          {
+            "id": "e0c223a9cee5b337",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Identifier Linkage.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "36abda5a2bfb2d55"
+          },
+          {
+            "id": "d8bddf23b6f514a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Identifier Linkage.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "36abda5a2bfb2d55"
           }
-        }
-      },
-      {
-        "id": "92f54701ff769561",
-        "type": "leaf",
-        "dimension": 50.47619047619048,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Namespaces and scope.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -67,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5
   },
   "right": {
     "id": "cd8979e1ee721e52",
@@ -83,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary.md",
+                "file": "Identifier Linkage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,16 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6bba6a3b4e4ffae",
+  "active": "e0c223a9cee5b337",
   "lastOpenFiles": [
-    "Glossary.md",
-    "Namespaces and scope.md",
-    "Operators and bit manipulation.md",
-    "Cheatsheet.md",
-    "Compilers.md",
-    "Makefile.md",
+    "Identifier Linkage.md",
+    "Glossary/Inline Function and Variable.md",
+    "Glossary/Forward Declaration.md",
+    "Glossary/Glossary.md",
+    "Glossary/Variable Duration.md",
     "Comparing floating point numbers.md",
-    "Pitfalls.md",
-    "Initialization methods.md"
+    "Compilers.md",
+    "Initialization methods.md",
+    "Index.md",
+    "Namespaces and scope.md"
   ]
 }

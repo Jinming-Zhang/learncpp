@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May 25 20:22:46 2022
+# Make data base, printed on Sat May 28 02:05:02 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ USERPROFILE = C:\Users\jinmi
 # environment
 LOCALAPPDATA = C:\Users\jinmi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bcceb655-f34f-4e85-8c45-b3d34cb0d6e2-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-931128b9-c7f5-4f57-8765-91e1976b38e6-sock
 # environment
 VSCODE_CWD = D:\Microsoft VS Code
 # environment
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_448_NWNEEYRICTNQRBOD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17016_AFISNDRYUBKDWUKF
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -93,7 +93,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 448
+VSCODE_PID = 17016
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -185,8 +185,7 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\jinmi\AppData\ 
-Local\Temp
+TEMP = C:\Users\jinmi\AppData\Local\Temp
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\ec507a4824e6e8c209b38e82fbca55e8-1.67.2-main-sock
 # default
@@ -279,6 +278,6 @@ GNUmakefile:
 # strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Wed May 25 20:22:46 2022
+# Finished Make data base on Sat May 28 02:05:02 2022
 
  

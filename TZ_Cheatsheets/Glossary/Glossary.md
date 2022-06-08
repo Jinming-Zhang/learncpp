@@ -2,6 +2,12 @@
 * object is a region of memory that has a value and other associated properties, object can be named or anonymous.
 * named object is called **variable**, the name of the object is called **identifier**.
 
+# Declaration vs Definition
+[reference](https://www.cprogramming.com/declare_vs_define.html#:~:text=A%20declaration%20provides%20basic%20attributes,where%20that%20variable%20is%20stored.)
+- Declaration provides basic attributes of a symble: type and name.
+- Definition provides all of the details of a symbol:
+	- for functions - function body
+	- for variable - value / address
 # Expression vs Statement
 
 >Expression - Fragment of code that evaluated to a value

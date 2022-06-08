@@ -26,10 +26,12 @@ namespace boo
 
 void namespaceExample();
 void variableShadowing();
+void internalLinkageEg();
 int main()
 {
 	egCall(namespaceExample);
 	egCall(variableShadowing);
+	egCall(internalLinkageEg);
 	return 0;
 }
 
@@ -68,4 +70,20 @@ void variableShadowing()
 	}
 	cout << "Exit inner block" << endl;
 	cout << "outter: " << outter << endl;
+}
+
+extern const int ecg;
+extern int g_x;
+// this will give linking error because the static function defined in other file has internal linkage
+void internalLinkage();
+void externalLinkage();
+void internalLinkageEg()
+{
+	printTitle("External Linkage");
+	cout << "g_x defined in linkage.h: " << g_x << endl;
+	cout << "ecg defined in linkage.h: " << ecg << endl;
+	cout << "externalLinkage() function defined in linkage.h" << endl;
+	externalLinkage();
+	// this will give linking error because the static function defined in other file has internal linkage
+	// internalLinkage();
 }
