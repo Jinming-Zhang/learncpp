@@ -1,3 +1,4 @@
+>Forward declarations are usually organized in header files.
 # Function Forward Declaration
 To access function defined in some other file.
 ```cpp

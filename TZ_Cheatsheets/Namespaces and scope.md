@@ -17,4 +17,3 @@ Variable showdowing happens when a local scope variable has the same name as a o
 In such cases, references of the name in the block where the local scop variable is defined will be referencing the local variable, and the outter scope variable will not be changed.
 There is no way to directly access the shadowed varible in outer block.
 
-# Linkage
