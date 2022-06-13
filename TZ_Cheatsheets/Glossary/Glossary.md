@@ -15,3 +15,14 @@
 >```
 >most of the time an expression is also a statement
 >```
+
+# Null Statement
+A statement that doesn't do anything.
+Usually used as a placeholder for places that require a statement semantically but actually don't need any logic.
+```cpp
+if(something){
+	;
+}
+// or
+if(something);
+```
