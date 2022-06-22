@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 19 23:40:48 2022
+# Make data base, printed on Tue Jun 21 13:58:23 2022
 
 # Variables
 
@@ -17,11 +17,11 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-62254be8-8924-43ea-82c4-9c7ac8b4b326.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f05c9f1c-7ef8-4b6a-931e-7d3ad9c5e9d1.sock
 # environment
 MANDATORY_PATH = /usr/share/gconf/mate.mandatory.path
 # environment
-VSCODE_CWD = /home/wolf/Projects/ObsidianNotes/obsidian_notes_cs
+VSCODE_CWD = /home/wolf/Projects/ObsidianNotes/obsidian_notes_cs/Programming/Cpp
 # environment
 WINDOWID = 94371846
 # environment
@@ -45,7 +45,7 @@ PWD = /home/wolf/Projects/ObsidianNotes/obsidian_notes_cs/Programming/Cpp
 # environment
 XDG_DATA_DIRS = /usr/share/mate:/home/wolf/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/wolf
+OLDPWD = /home/wolf/Projects/ObsidianNotes/obsidian_notes_cs
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -71,7 +71,7 @@ CURDIR := /home/wolf/Projects/ObsidianNotes/obsidian_notes_cs/Programming/Cpp
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
@@ -95,7 +95,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 137160
+VSCODE_PID = 172805
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -231,9 +231,9 @@ GDMSESSION = mate
 
 # Directories
 
-# . (device 2054, inode 3805482): 12 files, no impossibilities.
+# . (device 2054, inode 3805482): 14 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,15 +281,15 @@ GNUmakefile:
 
 # No 'vpath' search paths.
 
+ 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 208 B / avg = 10 B
-# current buf: size = 8162 B / used = 208 B / count = 20 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 231 B / avg = 10 B
+# current buf: size = 8162 B / used = 231 B / count = 22 / avg = 10 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
- 
-# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Sun Jun 19 23:40:48 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Tue Jun 21 13:58:24 2022
 
  
