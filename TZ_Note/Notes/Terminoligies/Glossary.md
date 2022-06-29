@@ -8,13 +8,11 @@
 - Definition provides all of the details of a symbol:
 	- for functions - function body
 	- for variable - value / address
-# Expression vs Statement
+# Expression Statement
+A combination of literals, variables, operators, and function calls that can be executed to produce a singular value
 
->Expression - Fragment of code that evaluated to a value
->Statement - Fragment of code to be executed
->```
->most of the time an expression is also a statement
->```
+# Statement
+A fragment of code that can be executed by the computer.
 
 # Null Statement
 A statement that doesn't do anything.
