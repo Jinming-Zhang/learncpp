@@ -19,3 +19,18 @@ int getvalue()
 // the order player enters doesn't match the order in expression
 std::cout<<getvalue() + (getvalue() - getvalue())<<std::endl;
 ```
+
+# Member selection operator
+
+member selection operator `.` : select member from object
+member selection from pointer (arrow operator) `->`: select member from pointer to an object.
+
+# Subscript operator []
+`subscript operator` is used to subscripting/indexing the array (accessing elements in arrays).
+`array subscripts` is the integral type used to indicate the position where we want to access the array.
+```cpp
+int array[5]{};
+int i = array[3];
+// [] is the subscript operator
+// 3 is the subscript
+```
