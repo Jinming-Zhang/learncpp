@@ -50,3 +50,11 @@ int main()
     return 0;
 }
 ```
+
+## cin with cstyle string
+A save method to store input into a char array:
+```cpp
+char name[256];
+cin.getline(name, std::size(name));
+```
+This prevents the case where user's input is too long and may overflow the array. (overwrite the null terminator)

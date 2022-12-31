@@ -30,3 +30,6 @@ public:
 	}
 };
 ```
+
+## Static Member Definitions
+Do not put the static member definition in a header file (much like a global variable, if that header file gets included more than once, you’ll end up with multiple definitions, which will cause a linker error).
