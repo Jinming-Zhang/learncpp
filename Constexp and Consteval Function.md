@@ -1,3 +1,12 @@
+# Const member function
+const member function indicates that the member function won't modify any of the member variables, and only member functions with *const* signature can be called on const objects.
+```cpp
+class Base
+{
+public:
+    int getValue() const  { return m_value; }
+};
+```
 # Constexp and Consteval Function
 ## Constexp Function
 Recall that `constexp` is used to create compile-time constant variables.
