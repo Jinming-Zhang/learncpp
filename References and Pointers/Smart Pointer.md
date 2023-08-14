@@ -104,3 +104,9 @@ int main()
 If we construct an object or do an assignment where the argument is an l-value, the only thing we can reasonably do is copy the l-value. We can’t assume it’s safe to alter the l-value, because it may be used again later in the program. If we have an expression “a = b”, we wouldn’t reasonably expect b to be changed in any way.
 
 However, if we construct an object or do an assignment where the argument is an r-value, then we know that r-value is just a temporary object of some kind. Instead of copying it (which can be expensive), we can simply transfer its resources (which is cheap) to the object we’re constructing or assigning. This is safe to do because the temporary will be destroyed at the end of the expression anyway, so we know it will never be used again!
+
+## std::shared_ptr
+`std::shapred_ptr<T>` allows multiple `std::shared_ptr<T>` objects points to the same resource.
+In order for the shared_ptr to be aware of other shared_ptr that points to the same object, **we must use copy constructor** to initialize shared_ptr after the first shared_ptr is created to host the shared resource.
+
+`std::make_shared<T>` is preferred when creating shared_ptr, it's safer and more performant  due to the underlying structure of shared_ptr object.
