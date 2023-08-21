@@ -15,6 +15,10 @@ public:
   {
     return a - b;
   }
+  void print()
+  {
+    std::cout << "Derived print\n";
+  }
 };
 
 int main(int argc, char const *argv[])
@@ -22,8 +26,15 @@ int main(int argc, char const *argv[])
   Derived d{};
   Base *baseRef{&d};
   Base baseCopy{d};
+
+  Base *basePtr = new Derived();
+
   std::cout << "Base reference add: " << baseRef->add(1, 4) << "\n";
   std::cout << "Base copy add: " << baseCopy.add(1, 4) << "\n";
   std::cout << "Derived add: " << d.add(1, 4) << "\n";
+  std::cout << "Base pointer add: " << basePtr->add(1, 4) << "\n";
+  std::cout << "Downcast base pointer to derived pointer: ";
+  dynamic_cast<Derived *>(basePtr)->print();
+
   return 0;
 }
